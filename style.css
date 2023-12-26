@@ -25,16 +25,15 @@
   text-align: center;
 }
 
-#contact_us {
+.contact_us {
   color: aliceblue;
-  padding-left: 40%;
+  padding-left: 70%;
+  padding-right: 12%;
   padding-top: 2%;
   padding-bottom: 2%;
+  transition: color 0.5s;
 }
 
-.fcontend {
-  padding-left: 2%;
-}
 .head1 {
   padding: 0% 5%;
 }
@@ -52,8 +51,13 @@
   padding-left: 10%;
 }
 
-.icons {
-  padding: 0 4%;
+.contact_us a{
+  margin: 0 10px;
+  color: azure;
+}
+
+.contact_us a:hover{
+color:coral;
 }
 
 body {
@@ -65,6 +69,8 @@ footer {
   padding-bottom: 2%;
 }
 
-h6{
-    padding-top: 2%;
+h6 {
+  color: aliceblue;
+  padding-left: 40%;
+  padding-bottom: 2%;
 }
