@@ -3,22 +3,28 @@
   <head>
     <meta charset="UTF-8" />
     <title>Envision Creations</title>
+    <!-- bootstrap -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!-- fontawesome for icons -->
     <script
       src="https://kit.fontawesome.com/b7c7ec3658.js"
       crossorigin="anonymous"
     ></script>
+    <!-- costom styles -->
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
+    <!-- nav bar -->
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid" id="navbar">
         <a class="navbar-brand" href="#Home">
+          <!-- company logo and name -->
           <img
             src="D:\My projects\web\assets\istockphoto-611634218-612x612.jpg"
             alt="Logo"
@@ -28,6 +34,7 @@
           />
           Envision Creations
         </a>
+        <!-- mobile menu button -->
         <button
           class="navbar-toggler"
           type="button"
@@ -44,6 +51,7 @@
           id="navbarNav"
         >
           <ul class="navbar-nav">
+            <!-- menu -->
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#Home"
                 >Home</a
@@ -59,34 +67,151 @@
         </div>
       </div>
     </nav>
+    <!-- end of nav bar -->
 
     <section id="Home">
+      <!-- Home page -->
       <h1 class="head1">Welcome</h1>
     </section>
     <section id="Services">
-      <h2>contend</h2>
+      <!-- services part -->
+      <div class="container px-4 py-5">
+        <h2 class="pb-2 border-bottom">Features with title</h2>
+
+        <div
+          class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5"
+        >
+          <div class="col d-flex flex-column align-items-start gap-2">
+            <h2 class="fw-bold text-body-emphasis">
+              Left-aligned title explaining these awesome features
+            </h2>
+            <p class="text-body-secondary">
+              Paragraph of text beneath the heading to explain the heading.
+              We'll add onto it with another sentence and probably just keep
+              going until we run out of words.
+            </p>
+            <a href="#" class="btn btn-primary btn-lg">Reach Us</a>
+          </div>
+
+          <div class="col">
+            <div class="row row-cols-1 row-cols-sm-2 g-4">
+              <div class="col d-flex flex-column gap-2">
+                <div
+                  class="icon feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                >
+                  <i class="fa-solid fa-shield-halved fa-lg"></i>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                  Featured title
+                </h4>
+                <p class="text-body-secondary">
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+
+              <div class="col d-flex flex-column gap-2">
+                <div
+                  class="icon feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                >
+                  <i class="fa-solid fa-shield-halved fa-lg"></i>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                  Featured title
+                </h4>
+                <p class="text-body-secondary">
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+
+              <div class="col d-flex flex-column gap-2">
+                <div
+                  class="icon feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                >
+                  <i class="fa-solid fa-shield-halved fa-lg"></i>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                  Featured title
+                </h4>
+                <p class="text-body-secondary">
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+
+              <div class="col d-flex flex-column gap-2">
+                <div
+                  class="icon feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3"
+                >
+                  <i class="fa-solid fa-shield-halved fa-lg"></i>
+                </div>
+                <h4 class="fw-semibold mb-0 text-body-emphasis">
+                  Featured title
+                </h4>
+                <p class="text-body-secondary">
+                  Paragraph of text beneath the heading to explain the heading.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-    <hr class="break" />
-    <section id="About_Us">
-      <h2>contend</h2>
+    <section>
+      <div class="contend01">
+        <h2>Features with title</h2>
+        <div class="row row-cols-1 row-cols-sm-2 g-4">
+          <div class="col d-flex flex-column gap-2">
+            <p>
+              Paragraph of text beneath the heading to explain the heading.
+              We'll add onto it with another sentence and probably just keep
+              going until we run out of words.
+            </p>
+          </div>
+          <div class="col d-flex flex-column gap-2">
+            <img class="pic1"
+              src="assets/jessica-lewis-thepaintedsquare-DeyfdybVQhA-unsplash.jpg"
+              alt="AR"
+            />
+          </div>
+        </div>
+      </div>
     </section>
 
-    <footer>
+    <footer class="py-3">
+      <!-- footer -->
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3" id="fmenu">
+        <!-- footer nav-->
+        <li class="nav-item">
+          <a href="#Home" class="nav-link px-2">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="#Services" class="nav-link px-2">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link px-2">FAQs</a>
+        </li>
+        <li class="nav-item">
+          <a href="#About_Us" class="nav-link px-2">About us</a>
+        </li>
+      </ul>
+      <!-- contact info-->
       <section class="contact_us">
-        <h3 class="footerHead">Contact Us</h3>
-        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook fa-lg"></i></a>
-        <a href=""><i class="fa-brands fa-whatsapp fa-lg"></i></a>
-        <a href=""><i class="fa-solid fa-envelope fa-lg"></i></a>
-        <a href=""><i class="fa-solid fa-phone fa-lg"></i></a>
+        <h4 class="footerHead">Contact Us</h4>
+        <div class="icons">
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-facebook fa-2x"></i
+          ></a>
+          <a href=""><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+          <a href=""><i class="fa-solid fa-envelope fa-2x"></i></a>
+          <a href=""><i class="fa-solid fa-phone fa-2x"></i></a>
+        </div>
       </section>
-      <h6>© 2024 Envision Creations</h6>
+      <p class="text-center" id="end">&copy; 2024 Envision Creations</p>
     </footer>
-
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
-    <script src="script.js"></script>
+    <script src="scrypt.js"></script>
   </body>
 </html>

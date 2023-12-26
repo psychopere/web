@@ -4,13 +4,15 @@
 #Home {
   height: 92vh; /* Set section height to 100% of viewport height */
   background-image: url(assets/bg.jpg); /* Optional background color */
+  background-size:cover;
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
   justify-content: left;
   text-align: center;
 }
 #Services {
-  height: 92vh; /* Set section height to 100% of viewport height */
+  height: 100vh; /* Set section height to 100% of viewport height */
   background-color: azure; /* Optional background color */
   display: flex;
   align-items: center;
@@ -25,13 +27,28 @@
   text-align: center;
 }
 
+#end {
+  color: azure;
+  text-align: center;
+  padding-bottom: 1%;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.col {
+  text-align: left;
+  opacity: 0;
+  filter: blur(5px);
+  transform: translatex(-100%);
+  transition: all 3s; /* animation speed */
+}
+
 .contact_us {
   color: aliceblue;
-  padding-left: 70%;
-  padding-right: 12%;
-  padding-top: 2%;
   padding-bottom: 2%;
-  transition: color 0.5s;
 }
 
 .head1 {
@@ -42,35 +59,52 @@
   border: 1px solid #000;
   margin: 20px auto;
   size: 10%;
-  width: 60%;
+  width: 50%;
   align-content: center;
 }
 
 .footerHead {
-  padding-top: 2%;
-  padding-left: 10%;
+  text-align: center;
 }
 
-.contact_us a{
+.icons {
+  text-align: center;
+  transition: color 0.5s;
+}
+
+.icons a {
   margin: 0 10px;
   color: azure;
 }
 
-.contact_us a:hover{
-color:coral;
+.icons a:hover {
+  color: #0a58ca;
 }
 
+.contend01 {
+  padding: 0% 10%;
+  text-align: center;
+}
+
+.contend01 p {
+  color: rgb(33 37 41 / 75%);
+  align-items: center;
+  padding: 25% 0%;
+}
+
+.pic1 {
+  border-radius: 5%;
+}
+.show {
+  opacity: 1;
+  filter: blur(0px);
+  transform: translatex(0%);
+}
 body {
   background-color: azure;
 }
 
 footer {
-  background-color: black;
-  padding-bottom: 2%;
-}
-
-h6 {
-  color: aliceblue;
-  padding-left: 40%;
-  padding-bottom: 2%;
+  padding: 0% 10%;
+  background-color: #181823;
 }
