@@ -39,6 +39,7 @@
 }
 
 .col {
+  align-content: center;
   text-align: left;
   opacity: 0;
   filter: blur(5px);
@@ -92,7 +93,22 @@
   padding: 25% 0%;
 }
 
+
+.brand-name{
+  font-size: 25px;
+} 
+
+.img{
+  width: 400px;
+  height: 266.2px;
+  margin: auto;
+  border-radius: 5%;
+  box-shadow: -15px 15px 10px rgba(0,0,0,0.3);
+}
+
 .pic1 {
+  max-width: 100%;
+  max-height: 100%;
   border-radius: 5%;
 }
 .show {
