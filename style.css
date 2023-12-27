@@ -4,7 +4,7 @@
 #Home {
   height: 92vh; /* Set section height to 100% of viewport height */
   background-image: url(assets/bg.jpg); /* Optional background color */
-  background-size:cover;
+  background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
@@ -44,7 +44,7 @@
   opacity: 0;
   filter: blur(5px);
   transform: translatex(-100%);
-  transition: all 3s; /* animation speed */
+  transition: all 1s; /* animation speed */
 }
 
 .contact_us {
@@ -83,27 +83,26 @@
 }
 
 .contend01 {
-  padding: 0% 10%;
+  padding: 10% 10%;
   text-align: center;
 }
 
 .contend01 p {
   color: rgb(33 37 41 / 75%);
   align-items: center;
-  padding: 25% 0%;
+  padding: 10% 0%;
 }
 
-
-.brand-name{
+.brand-name {
   font-size: 25px;
-} 
+}
 
-.img{
+.img {
   width: 400px;
   height: 266.2px;
   margin: auto;
   border-radius: 5%;
-  box-shadow: -15px 15px 10px rgba(0,0,0,0.3);
+  box-shadow: -15px 15px 10px rgba(0, 0, 0, 0.3);
 }
 
 .pic1 {
@@ -123,4 +122,67 @@ body {
 footer {
   padding: 0% 10%;
   background-color: #181823;
+}
+
+@media (max-width: 600px) {
+  .brand-name {
+    font-size: 20px;
+  }
+
+  .d-inline-block {
+    width: 40px;
+    height: 40px;
+  }
+
+  .contend01 p {
+    padding: 5% 0%;
+  }
+
+  .img {
+    width: 200px;
+    height: 133.2px;
+  }
+
+  .pic1 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+.contend01{
+  padding-top: 0px;
+}
+  .container {
+    margin: auto;
+  }
+
+  #Services{
+    height: auto;
+  }
+
+}
+
+@media (max-width: 1024px) and (min-width: 600px) {
+  .contend01 {
+    padding: 5%;
+  }
+  .img {
+    width: 300px;
+    height: 199.8px;
+  }
+
+  .pic1 {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  h2 {
+    padding-bottom: 5%;
+  }
+
+  #Services {
+    height: auto;
+  }
+
+  .contend01 {
+    padding-top: 0%;
+  }
 }
